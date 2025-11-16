@@ -2,8 +2,8 @@
 # HYBRID EXPLAINER EVALUATION SUMMARY
 
 ## Dataset
-- Total Alerts Analyzed: 4
-- Alert IDs: 57367, 90543, 95744, 136318
+- Total Alerts Analyzed: 5
+- Alert IDs: 44163, 57367, 90543, 95744, 136318
 
 ## Overall Performance Metrics
 
@@ -17,7 +17,7 @@
 - XAI-Only: 0.50
 - Causal-Only: 0.10
 - **Hybrid: 0.53** 
-  → 5.0% more than XAI-Only
+  → 6.0% more than XAI-Only
 
 ### Feature Coverage
 - Average Present Features: 42.0/42 (100.0%)
@@ -25,21 +25,21 @@
 
 ### Causal Analysis
 - Average Causal Paths per Alert: 1.0
-- Alerts with Causal Paths: 4/4 (100.0%)
+- Alerts with Causal Paths: 5/5 (100.0%)
 
 ### Recommendations
-- Average Recommendations per Alert: 4.5
+- Average Recommendations per Alert: 4.6
 - Range: 4-5 recommendations
 
 ### Severity Distribution
-- MINIMAL: 2/4 (50.0%)
-- LOW: 2/4 (50.0%)
+- MINIMAL: 3/5 (60.0%)
+- LOW: 2/5 (40.0%)
 
 ## Key Findings
 
 ### 1. Hybrid Approach Provides Comprehensive Explanations
 - ✅ All alerts (5/5) have XAI feature importance
-- ✅ 4/5 alerts have causal paths
+- ✅ 5/5 alerts have causal paths
 - ✅ All alerts (5/5) have actionable recommendations
 - ✅ All alerts (5/5) have severity assessments
 
@@ -50,7 +50,7 @@
 - Causal: Root causes (SignatureMatchesPerDay, SignatureID)
 
 ### 3. Information Gain Over Baselines
-- Hybrid provides **5.2x** more information than Causal-Only
+- Hybrid provides **5.3x** more information than Causal-Only
 
 ### 4. Causal Coverage Gap
 - Average causal coverage: 40.00%
@@ -92,5 +92,5 @@
 4. **Adaptive Recommendations**: Context-aware recommendations based on alert history
 
 ---
-**Evaluation Date**: 2025-11-16 22:07:47
+**Evaluation Date**: 2025-11-16 17:28:53 EST
 **Total Runtime**: Step 5 Evaluation Complete
