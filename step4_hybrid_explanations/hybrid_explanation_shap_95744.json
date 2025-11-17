@@ -1,0 +1,437 @@
+{
+  "alert_id": 95744,
+  "alert_data": {
+    "dur": 0.661656,
+    "proto": 113.0,
+    "service": 5.0,
+    "state": 2.0,
+    "spkts": 10.0,
+    "dpkts": 10.0,
+    "sbytes": 804.0,
+    "dbytes": 1330.0,
+    "rate": 28.715827,
+    "sttl": 62.0,
+    "dttl": 252.0,
+    "sload": 8753.792969,
+    "dload": 14472.77734,
+    "sloss": 2.0,
+    "dloss": 2.0,
+    "sinpkt": 73.517333,
+    "dinpkt": 64.571555,
+    "sjit": 4564.721941,
+    "djit": 110.757008,
+    "swin": 255.0,
+    "stcpb": 4027744985.0,
+    "dtcpb": 1802483418.0,
+    "dwin": 255.0,
+    "tcprtt": 0.109361,
+    "synack": 0.05091,
+    "ackdat": 0.058451,
+    "smean": 80.0,
+    "dmean": 133.0,
+    "trans_depth": 1.0,
+    "response_body_len": 220.0,
+    "ct_srv_src": 6.0,
+    "ct_state_ttl": 1.0,
+    "ct_dst_ltm": 2.0,
+    "ct_src_dport_ltm": 2.0,
+    "ct_dst_sport_ltm": 1.0,
+    "ct_dst_src_ltm": 5.0,
+    "is_ftp_login": 0.0,
+    "ct_ftp_cmd": 0.0,
+    "ct_flw_http_mthd": 1.0,
+    "ct_src_ltm": 2.0,
+    "ct_srv_dst": 5.0,
+    "is_sm_ips_ports": 0.0
+  },
+  "xai_analysis": {
+    "prediction": "Irrelevant",
+    "confidence": 1.0,
+    "pred_class": 0,
+    "top_features": [
+      {
+        "feature": "dtcpb",
+        "importance": -0.16146323535116927,
+        "value": 1802483418.0,
+        "abs_importance": 0.16146323535116927,
+        "is_missing": false
+      },
+      {
+        "feature": "ct_ftp_cmd",
+        "importance": -0.1563940260793739,
+        "value": 0.0,
+        "abs_importance": 0.1563940260793739,
+        "is_missing": false
+      },
+      {
+        "feature": "stcpb",
+        "importance": -0.09100204547344205,
+        "value": 4027744985.0,
+        "abs_importance": 0.09100204547344205,
+        "is_missing": false
+      },
+      {
+        "feature": "ct_src_ltm",
+        "importance": 0.0893413987289094,
+        "value": 2.0,
+        "abs_importance": 0.0893413987289094,
+        "is_missing": false
+      },
+      {
+        "feature": "ct_state_ttl",
+        "importance": -0.08305368178902238,
+        "value": 1.0,
+        "abs_importance": 0.08305368178902238,
+        "is_missing": false
+      }
+    ],
+    "all_features": [
+      {
+        "feature": "dtcpb",
+        "importance": -0.16146323535116927,
+        "value": 1802483418.0,
+        "abs_importance": 0.16146323535116927,
+        "is_missing": false
+      },
+      {
+        "feature": "ct_ftp_cmd",
+        "importance": -0.1563940260793739,
+        "value": 0.0,
+        "abs_importance": 0.1563940260793739,
+        "is_missing": false
+      },
+      {
+        "feature": "stcpb",
+        "importance": -0.09100204547344205,
+        "value": 4027744985.0,
+        "abs_importance": 0.09100204547344205,
+        "is_missing": false
+      },
+      {
+        "feature": "ct_src_ltm",
+        "importance": 0.0893413987289094,
+        "value": 2.0,
+        "abs_importance": 0.0893413987289094,
+        "is_missing": false
+      },
+      {
+        "feature": "ct_state_ttl",
+        "importance": -0.08305368178902238,
+        "value": 1.0,
+        "abs_importance": 0.08305368178902238,
+        "is_missing": false
+      },
+      {
+        "feature": "ackdat",
+        "importance": -0.06226985397349334,
+        "value": 0.058451,
+        "abs_importance": 0.06226985397349334,
+        "is_missing": false
+      },
+      {
+        "feature": "sload",
+        "importance": 0.03714655691808798,
+        "value": 8753.792969,
+        "abs_importance": 0.03714655691808798,
+        "is_missing": false
+      },
+      {
+        "feature": "is_sm_ips_ports",
+        "importance": -0.02937720922772349,
+        "value": 0.0,
+        "abs_importance": 0.02937720922772349,
+        "is_missing": false
+      },
+      {
+        "feature": "ct_flw_http_mthd",
+        "importance": -0.025566601192487375,
+        "value": 1.0,
+        "abs_importance": 0.025566601192487375,
+        "is_missing": false
+      },
+      {
+        "feature": "is_ftp_login",
+        "importance": 0.01551737945714122,
+        "value": 0.0,
+        "abs_importance": 0.01551737945714122,
+        "is_missing": false
+      },
+      {
+        "feature": "dur",
+        "importance": 0.0,
+        "value": 0.661656,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "proto",
+        "importance": 0.0,
+        "value": 113.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "service",
+        "importance": 0.0,
+        "value": 5.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "state",
+        "importance": 0.0,
+        "value": 2.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "spkts",
+        "importance": 0.0,
+        "value": 10.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "dpkts",
+        "importance": 0.0,
+        "value": 10.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "sbytes",
+        "importance": 0.0,
+        "value": 804.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "dbytes",
+        "importance": 0.0,
+        "value": 1330.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "rate",
+        "importance": 0.0,
+        "value": 28.715827,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "sttl",
+        "importance": 0.0,
+        "value": 62.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "dttl",
+        "importance": 0.0,
+        "value": 252.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "dload",
+        "importance": 0.0,
+        "value": 14472.77734,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "sloss",
+        "importance": 0.0,
+        "value": 2.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "dloss",
+        "importance": 0.0,
+        "value": 2.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "sinpkt",
+        "importance": 0.0,
+        "value": 73.517333,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "dinpkt",
+        "importance": 0.0,
+        "value": 64.571555,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "sjit",
+        "importance": 0.0,
+        "value": 4564.721941,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "djit",
+        "importance": 0.0,
+        "value": 110.757008,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "swin",
+        "importance": 0.0,
+        "value": 255.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "dwin",
+        "importance": 0.0,
+        "value": 255.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "tcprtt",
+        "importance": 0.0,
+        "value": 0.109361,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "synack",
+        "importance": 0.0,
+        "value": 0.05091,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "smean",
+        "importance": 0.0,
+        "value": 80.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "dmean",
+        "importance": 0.0,
+        "value": 133.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "trans_depth",
+        "importance": 0.0,
+        "value": 1.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "response_body_len",
+        "importance": 0.0,
+        "value": 220.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "ct_srv_src",
+        "importance": 0.0,
+        "value": 6.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "ct_dst_ltm",
+        "importance": 0.0,
+        "value": 2.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "ct_src_dport_ltm",
+        "importance": 0.0,
+        "value": 2.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "ct_dst_sport_ltm",
+        "importance": 0.0,
+        "value": 1.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "ct_dst_src_ltm",
+        "importance": 0.0,
+        "value": 5.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      },
+      {
+        "feature": "ct_srv_dst",
+        "importance": 0.0,
+        "value": 5.0,
+        "abs_importance": 0.0,
+        "is_missing": false
+      }
+    ],
+    "num_missing_features": 0,
+    "num_present_features": 42
+  },
+  "causal_analysis": [
+    {
+      "target": "dtcpb",
+      "in_graph": true,
+      "root_causes": [],
+      "causal_paths": [],
+      "direct_causes": [],
+      "num_paths": 0
+    },
+    {
+      "target": "ct_ftp_cmd",
+      "in_graph": false,
+      "root_causes": [],
+      "causal_paths": [],
+      "direct_causes": [],
+      "reason": "Feature not in SOC analyst-determined causal graph"
+    },
+    {
+      "target": "stcpb",
+      "in_graph": true,
+      "root_causes": [],
+      "causal_paths": [],
+      "direct_causes": [],
+      "num_paths": 0
+    },
+    {
+      "target": "ct_src_ltm",
+      "in_graph": false,
+      "root_causes": [],
+      "causal_paths": [],
+      "direct_causes": [],
+      "reason": "Feature not in SOC analyst-determined causal graph"
+    },
+    {
+      "target": "ct_state_ttl",
+      "in_graph": false,
+      "root_causes": [],
+      "causal_paths": [],
+      "direct_causes": [],
+      "reason": "Feature not in SOC analyst-determined causal graph"
+    }
+  ],
+  "label_causal": null,
+  "recommendations": {
+    "severity": "MINIMAL",
+    "immediate_actions": [],
+    "investigation_steps": [],
+    "root_cause_mitigation": [],
+    "severity_reasoning": "High-confidence Normal alert (100.0%). Can likely be safely dismissed."
+  }
+}
